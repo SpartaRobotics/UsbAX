@@ -28,28 +28,28 @@ int main()
     for(int i = 0; i < 1; i ++)
     {
         control.move(ID,0);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
         control.move(ID,256);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
         control.move(ID,512);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
         control.move(ID,768);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
         control.move(ID,1023);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
         control.move(ID,768);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
         control.move(ID,512);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
         control.move(ID,256);
-        usleep(1*SEC);
+        usleep(2*SEC);
         
     }
     
